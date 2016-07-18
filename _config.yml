@@ -1,0 +1,38 @@
+title: Suego
+description: Suego - We provide web design and online marketing strategy to startups and small business.
+highlighter: rouge
+
+baseurl: ''
+url: https://suego.co
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'config.rb', 'sass']
+
+enforce_ssl: suego.co
+twitter_username: suegohq
+github_username:  steverodrigz
+
+# About/contact
+author:
+  name:              Steven A Rodriguez
+  url:               https://twitter.com/steverodrigz
+  email:             steven@suego.co
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/suego/suego.github.io
+
+# Settings for sitemap_generator plugin.
+sitemap:
+    exclude:
+        - "/rss.xml"
+        - "/tag"
+    include_posts:
+        - "/index.html"
+        - "/work/index.html"
+
+# Collections
+collections:
+  case_studies:
+  output: true
+  permalink: /work/:slug/
