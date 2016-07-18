@@ -19,7 +19,7 @@ permalink: /contact/
   <h3>Send us a message</h3>
   <p>Please enter your information and message in the fields below. We will not share your information without your permission.</p>
   <form id="contactform" method="POST">
-    <input type="hidden" name="_next" value="https://suego.co/support/#contact" />
+    <input type="hidden" name="_next" value="https://suego.co/" />
     <p><input type="text" name="first" placeholder="First (Required)" required ></p>
     <p><input type="text" name="last" placeholder="Last (Required)" required ></p>
     <p><input type="email" name="_replyto" placeholder="Email (Required)" required ></p>
