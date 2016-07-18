@@ -7,7 +7,7 @@ permalink: /contact/
 <section class="hero-slider">
   <div class="flash-gallery-wrapper">
     <ul class="flash-gallery bx-slider">
-      <li><img src="/assets/images/our-services.jpg" alt="group meeting" alt="About Us"/></li>
+      <li><img src="{{ site.baseurl }}/assets/images/our-services.jpg" alt="group meeting"/></li>
     </ul> 
   </div> 
 </section>
