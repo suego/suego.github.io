@@ -3,7 +3,7 @@ description: Suego - We provide web design and online marketing strategy to star
 highlighter: rouge
 
 baseurl: ''
-url: 127.0.0.1:4000
+url: https://suego.co
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'config.rb', 'sass']
 

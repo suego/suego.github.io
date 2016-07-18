@@ -12,13 +12,6 @@
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  {% if page.keywords != nil %}
-    {% assign keywords = page.keywords | join: ', ' %}
-  {% elsif page.tags != nil %}
-    {% assign keywords = page.tags | join: ', ' %}
-  {% endif %}
-  <meta name="keywords" content="{{ keywords }}">
-
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/vnd.microsoft.icon" />
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
