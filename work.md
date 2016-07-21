@@ -31,7 +31,7 @@ permalink: /work/
         <h4>{{ preview.cs-preview.topic }}</h4>
         <h2>{{ preview.cs-preview.client }}</h2>
         <p class="description">{{ preview.cs-preview.description }}</p>
-        <p><a href="{{ preview.cs-homepage.url }}" class="uppercase-link" target="_blank">See Homepage <i class="fa fa-caret-right"></i></a></p>
+        <p><a href="{{ preview.cs-homepage.url }}" data-featherlight="image" class="uppercase-link" target="_blank" style="width:50px;">See Homepage <i class="fa fa-caret-right"></i></a></p>
       </div>
     </section>
   {% endfor %}

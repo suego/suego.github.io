@@ -24,7 +24,7 @@ cs-header:
   description: "CCSD is the biggest not-for-profit umbrella organization in the disability field at The City University of New York, organizing 19 student member organizations across 24 schools and colleges, and representing 9,000+ students with disabilities."
 
 cs-homepage:
-  url: https://plus.google.com/b/107112526086138363748/photos/+Suego/albums/6112465402301531937/6307624050085509266
+  url: /assets/images/case-studies/ccsd-main/homepage1.png
   client: "CUNY Coalition for Students with Disabilities"
 
 ---

@@ -24,7 +24,7 @@ cs-header:
   description: "Inspire Her aims to increase the number of educated women globally by supporting girls’ education in underserved communities."
 
 cs-homepage:
-  url: https://plus.google.com/b/107112526086138363748/photos/+Suego/albums/6112465402301531937/6307631405660597410
+  url: /assets/images/case-studies/ihw-main/homepage1.png
   client: "Inspire Her"
 
 ---

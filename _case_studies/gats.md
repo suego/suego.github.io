@@ -24,7 +24,7 @@ cs-header:
   title: "GATS is an assessment and continuing education training provider for professionals in various fields."
 
 cs-homepage:
-  url: https://plus.google.com/b/107112526086138363748/photos/107112526086138363748/albums/6112465402301531937/6307629227475756658
+  url: /assets/images/case-studies/gats-main/homepage1.png
   client: "Global Assessment Training Solutions"
 
 ---

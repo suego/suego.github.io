@@ -24,7 +24,7 @@ cs-header:
   description: "DC Startup Week, started by entrepreneurs for entrepreneurs, is a week-long, DC-wide showcase and celebration of the DC-Maryland-Virginia entrepreneur community."
 
 cs-homepage:
-  url: https://plus.google.com/b/107112526086138363748/photos/+Suego/albums/6112465402301531937/6307633634769712034
+  url: /assets/images/case-studies/dcsw-main/homepage1.png
   client: "DC Startup Weekend"
 
 ---
