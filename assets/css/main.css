@@ -243,7 +243,7 @@ ol,ul {
 
 #header {
   zoom: 1;
-  background: #2a2a2a;
+  background: #1a1e25;
   height: 100%;
   left: 0;
   position: fixed;
@@ -309,7 +309,7 @@ ol,ul {
 .services-menu-button {
   text-transform: uppercase;
   font-variant: small-caps;
-  color: #707070;
+  color: #cfcfc0;
   margin: 0;
   padding: 1em 55px 1em 0px;
   text-align: right;
@@ -324,7 +324,6 @@ ol,ul {
   display: block;
   width: 15px;
   height: 100%;
-  color: rgba(255,255,255,0.25);
   font: 18px/2.25em 'FontAwesome';
   right: 30px;
   top: -1px;
@@ -359,14 +358,14 @@ ol,ul {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  background-color: #494949;
+  background-color: #1c729a;
   position: absolute;
   left: 100%;
   top: -1000px;
   width: 740px;
   height: 100%;
   text-align: center;
-  border-left: 10px solid #393939;
+  border-left: 10px solid #00485e;
   z-index: 90;
   padding: 25px 0;
 }
@@ -401,7 +400,7 @@ ol,ul {
   width: 33%;
   left: 50%;
   margin-left: -16.5%;
-  background-color: #494949;
+  background-color: #1c729a;
   z-index: -1;
 }
 
@@ -1634,7 +1633,8 @@ section.stuck+section:not(.stuck) {
   position: relative;
   z-index: 100;
   overflow: hidden;
-  background-image: url('/assets/images/stripe-pattern.png');
+  background-color: #f2f2f2;
+  background-image: url('/assets/images/pattern-blue-dots2.png');
   background-size: 60px 59px;
   -ms-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2972,7 +2972,8 @@ section.stuck+section:not(.stuck) {
 
 .prefooter {
   padding: 4em 0px 4em 220px;
-  background-image: url('/assets/images/spot-pattern.png');
+  background-color: rgba(40,67,87,1);
+  background-image: url('/assets/images/pattern-blue-dots2.png');
   background-size: 399px 399px;
   color: #ffffff;
   -ms-box-sizing: border-box;
@@ -2984,7 +2985,7 @@ section.stuck+section:not(.stuck) {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .prefooter {
-    background-image: url('/assets/images/spot-pattern@2x.png');
+    background-image: url('/assets/images/pattern-blue-dots2.png');
     background-size: 399px 399px;
   }
 }
@@ -3234,8 +3235,8 @@ section.stuck+section:not(.stuck) {
   margin: 0;
   padding: 20px;
   margin-left: 220px;
-  background: #343434;
-  color: #ffffff;
+  background: #23272c;
+  color: #cfcfc0;
   position: relative;
   z-index: 101;
 }
@@ -3559,7 +3560,7 @@ hr.embossed {
 }
 
 hr.light {
-  border-color: #5f5f5f transparent transparent transparent;
+  border-color: #cfcfc0 transparent transparent transparent;
   border-width: 1px 0 0 0;
   border-style: solid;
 }
@@ -3672,10 +3673,10 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-market.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
-  width: 16px;
-  height: 59px;
+  width: 18px;
+  height: 35px;
   top: 50%;
   margin-top: -29.5px;
   right: 100%;
@@ -3683,13 +3684,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets:before,.market .brackets:after {
-    background-image: url('/assets/images/bracket-left-small-market@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .market .brackets:after {
-  background-image: url('/assets/images/bracket-right-small-market.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3697,7 +3698,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets:after {
-    background-image: url('/assets/images/bracket-right-small-market@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3706,7 +3707,7 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-web.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 18px;
   height: 59px;
@@ -3717,13 +3718,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets:before,.web .brackets:after {
-    background-image: url('/assets/images/bracket-left-small-web.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .web .brackets:after {
-  background-image: url('/assets/images/bracket-right-small-web.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3732,7 +3733,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets:after {
-    background-image: url('/assets/images/bracket-right-small-web@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3741,7 +3742,7 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-brand.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 15px;
   height: 57px;
@@ -3752,13 +3753,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets:before,.brand .brackets:after {
-    background-image: url('/assets/images/bracket-left-small-brand@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brand .brackets:after {
-  background-image: url('/assets/images/bracket-right-small-brand.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3766,7 +3767,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets:after {
-    background-image: url('/assets/images/bracket-right-small-brand@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3791,7 +3792,7 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-market.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 16px;
   height: 59px;
@@ -3802,13 +3803,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.market:before,.brackets.market:after {
-    background-image: url('/assets/images/bracket-left-small-market@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brackets.market:after {
-  background-image: url('/assets/images/bracket-right-small-market.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3816,7 +3817,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.market:after {
-    background-image: url('/assets/images/bracket-right-small-market@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3825,10 +3826,10 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-web.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 18px;
-  height: 59px;
+  height: 35px;
   top: 50%;
   margin-top: -29.5px;
   right: 100%;
@@ -3836,13 +3837,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.web:before,.brackets.web:after {
-    background-image: url('/assets/images/bracket-left-small-web@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brackets.web:after {
-  background-image: url('/assets/images/bracket-right-small-web.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3851,7 +3852,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.web:after {
-    background-image: url('/assets/images/bracket-right-small-web@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3860,10 +3861,10 @@ hr.light {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-small-brand.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
-  width: 15px;
-  height: 57px;
+  width: 18px;
+  height: 35px;
   top: 50%;
   margin-top: -28.5px;
   right: 100%;
@@ -3871,13 +3872,13 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.brand:before,.brackets.brand:after {
-    background-image: url('/assets/images/bracket-left-small-brand@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brackets.brand:after {
-  background-image: url('/assets/images/bracket-right-small-brand.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3885,7 +3886,7 @@ hr.light {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brackets.brand:after {
-    background-image: url('/assets/images/bracket-right-small-brand@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3914,7 +3915,7 @@ a:hover .brackets:after {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-large-web.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 27px;
   height: 92px;
@@ -3925,13 +3926,13 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets-lg:before,.web .brackets-lg:after {
-    background-image: url('/assets/images/bracket-left-large-web@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .web .brackets-lg:after {
-  background-image: url('/assets/images/bracket-right-large-web.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3939,31 +3940,31 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets-lg:after {
-    background-image: url('/assets/images/bracket-right-large-web@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
 
 .web .brackets-lg.brackets-dark:before {
-  background-image: url('/assets/images/bracket-left-large-web-dark.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets-lg.brackets-dark:before {
-    background-image: url('/assets/images/bracket-left-large-web-dark@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .web .brackets-lg.brackets-dark:after {
-  background-image: url('/assets/images/bracket-right-large-web-dark.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .web .brackets-lg.brackets-dark:after {
-    background-image: url('/assets/images/bracket-right-large-web-dark@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -3972,7 +3973,7 @@ a:hover .brackets:after {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-large-brand.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 25px;
   height: 92px;
@@ -3983,13 +3984,13 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets-lg:before,.brand .brackets-lg:after {
-    background-image: url('/assets/images/bracket-left-large-brand@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brand .brackets-lg:after {
-  background-image: url('/assets/images/bracket-right-large-brand.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -3997,31 +3998,31 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets-lg:after {
-    background-image: url('/assets/images/bracket-right-large-brand@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
 
 .brand .brackets-lg.brackets-dark:before {
-  background-image: url('/assets/images/bracket-left-large-brand-dark.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets-lg.brackets-dark:before {
-    background-image: url('/assets/images/bracket-left-large-brand-dark@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .brand .brackets-lg.brackets-dark:after {
-  background-image: url('/assets/images/bracket-right-large-brand-dark.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .brand .brackets-lg.brackets-dark:after {
-    background-image: url('/assets/images/bracket-right-large-brand-dark@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -4030,7 +4031,7 @@ a:hover .brackets:after {
   position: absolute;
   content: '';
   display: block;
-  background-image: url('/assets/images/bracket-left-large-market.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
   width: 24px;
   height: 92px;
@@ -4041,13 +4042,13 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets-lg:before,.market .brackets-lg:after {
-    background-image: url('/assets/images/bracket-left-large-market@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .market .brackets-lg:after {
-  background-image: url('/assets/images/bracket-right-large-market.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
   left: 100%;
   right: auto;
@@ -4055,31 +4056,31 @@ a:hover .brackets:after {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets-lg:after {
-    background-image: url('/assets/images/bracket-right-large-market@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
 
 .market .brackets-lg.brackets-dark:before {
-  background-image: url('/assets/images/bracket-left-large-market-dark.png');
+  background-image: url('/assets/images/arrow-left.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets-lg.brackets-dark:before {
-    background-image: url('/assets/images/bracket-left-large-market-dark@2x.png');
+    background-image: url('/assets/images/arrow-left.png');
     background-size: cover;
   }
 }
 
 .market .brackets-lg.brackets-dark:after {
-  background-image: url('/assets/images/bracket-right-large-market-dark.png');
+  background-image: url('/assets/images/arrow-right.png');
   background-size: cover;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .market .brackets-lg.brackets-dark:after {
-    background-image: url('/assets/images/bracket-right-large-market-dark@2x.png');
+    background-image: url('/assets/images/arrow-right.png');
     background-size: cover;
   }
 }
@@ -4121,21 +4122,21 @@ a:hover .brackets:after {
   transform: translate3d(0,0,0);
 }
 
-.icon-link.affiliate-program:before {
-  background-image: url('/assets/images/icon-affiliate.png');
+.icon-link.partner-network:before {
+  background-image: url('/assets/images/icon-partner.png');
   background-size: 30px 30px;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
-  .icon-link.affiliate-program:before {
+  .icon-link.partner-network:before {
     background-image: url('/assets/images/icon-affiliate.png');
     background-size: 30px 30px;
   }
 }
 
-.icon-link.partner-network:before {
+.icon-link.affiliate-program:before {
   background-image: url('/assets/images/icon-network.png');
   background-size: 23px 17px;
   background-repeat: no-repeat;
@@ -4143,7 +4144,7 @@ a:hover .brackets:after {
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
-  .icon-link.partner-network:before {
+  .icon-link.affiliate-program:before {
     background-image: url('/assets/images/icon-network.png');
     background-size: 23px 17px;
   }
@@ -5311,11 +5312,11 @@ a:hover .brackets:after {
     margin-top: -14px;
   }
 
-  .icon-link.affiliate-program:before {
+  .icon-link.partner-network:before {
     background-size: 20px 20px;
   }
 
-  .icon-link.partner-network:before {
+  .icon-link.affiliate-program:before {
     background-size: 13px 11px;
   }
 
@@ -5833,8 +5834,8 @@ a:hover .brackets:after {
     left: 200%;
     border-left: none;
     opacity: .98!important;
-    border-top: 4px solid #6a6a6a;
-    border-bottom: 4px solid #6a6a6a;
+    border-top: 4px solid #00485e;
+    border-bottom: 4px solid #00485e;
   }
 
   .services-menu.mobile-active {

@@ -11,8 +11,8 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 (function($){
 	$(document).ready(function() {
 
-		//*** Restaurants Switcher: Keep page location between sites *************************//
-		// $('.restaurants-menu a').click(function(e){
+		//*** Services Switcher: Keep page location between sites *************************//
+		// $('.services-menu a').click(function(e){
 		// 	var currentPath = window.location.pathname
 		// 	var pathEnd = currentPath.split('/');
 		// 	pathSlug = pathEnd[pathEnd.length-1];
@@ -27,26 +27,26 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 		// });
 
 		if(!mobile && $(window).width() >= 650){
-			$('.restaurants-menu-button').hover(function(){
-				$('.restaurants-menu').addClass('active');
+			$('.services-menu-button').hover(function(){
+				$('.services-menu').addClass('active');
 			},function(){
 				setTimeout(function(){
-					$('.restaurants-menu').removeClass('active');
+					$('.services-menu').removeClass('active');
 				},700);
 			});
 		}else{
-			$('.restaurants-menu-button').click(function(){
-				$('.restaurants-menu').toggleClass('mobile-active');
+			$('.services-menu-button').click(function(){
+				$('.services-menu').toggleClass('mobile-active');
 				$('#menu-wrapper,#menu-icon').removeClass('active');
 				$('#nav').css('display','none');
 			});
 		}
 		
-		// add chownow link to Ray's in the City
-		$('.subpage.city #nav').append('<li class="menulink"><a href="https://facebook.chownow.com/search/locationPicker?company_id=2346">Order Online</a></li>');
+		// add chownow link to S3 Web Strategy
+		$('.subpage.web #nav').append('<li class="menulink"><a href="#">Free Consult</a></li>');
 
 		//*** Telephone holder *************************//
-		var helper = $('.reservation-helper');
+		var helper = $('.consultation-helper');
 		$(window).scroll(function(){
 			if($(this).scrollTop() >= 100 && !helper.hasClass('small')){
 				helper.addClass('small');
@@ -175,7 +175,7 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 
 
 		//*** FancyForm Submit *************************//
-		var thankYou = '<div class="jotform-form" id="thank-you-msg"><h2 class="center">Thank You!</h2><p class="center">Thank you for sending your request. We look forward to providing a wonderful dining experience on your next visit.</p></div>'
+		var thankYou = '<div class="jotform-form" id="thank-you-msg"><h2 class="center">Thank You!</h2><p class="center">Thank you for sending your request. We look forward to seeing if this is a good fit.</p></div>'
 		$('#simpleform .sendit').click(function(){
 			var form = $(this).parents('#simpleform');
 			form.before(thankYou);
@@ -375,56 +375,50 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 (function($){
 	$(document).ready(function() {
 
-		/* main navigation resturants menu in header */
-		// menu-city
-		$('.menu-city').gaEvent('click', 'Restaurant Switcher Menu', 'Click', 'City');
-		// menu-creek
-		$('.menu-creek').gaEvent('click', 'Restaurant Switcher Menu', 'Click', 'Creek');
-		// menu-river
-		$('.menu-river').gaEvent('click', 'Restaurant Switcher Menu', 'Click', 'River');
+		/* main navigation services menu in header */
+		// menu-web
+		$('.menu-web').gaEvent('click', 'Service Switcher Menu', 'Click', 'Web');
+		// menu-brand
+		$('.menu-brand').gaEvent('click', 'Service Switcher Menu', 'Click', 'Brand');
+		// menu-market
+		$('.menu-market').gaEvent('click', 'Service Switcher Menu', 'Click', 'Market');
 		// menu-corp
-		$('.menu-corporate').gaEvent('click', 'Restaurant Switcher Menu', 'Click', 'Corporate');
-		// rio bravo
-		$('.menu-rio').gaEvent('click', 'Restaurant Switcher Menu', 'Click', 'Rio Bravo');
+		$('.menu-corporate').gaEvent('click', 'Service Switcher Menu', 'Click', 'Corporate');
 
 
 		/* homepage view menu buttons */
-		// view menu city
-		$('.page_1 .column.city .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'City');
-		// view menu river
-		$('.page_1 .column.river .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'River');
-		// view menu creek
-		$('.page_1 .column.creek .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'Creek');
+		// view menu web
+		$('.page_1 .column.web .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'Web');
+		// view menu brand
+		$('.page_1 .column.brand .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'Brand');
+		// view menu market
+		$('.page_1 .column.market .btn').gaEvent('click', 'Homepage View Menu Button', 'Click', 'Market');
 
 
 		/* badges on homepage */
 		// ot-dc-badge
-		$('.to-dc-badge').gaEvent('click', 'City Search Logo', 'Click');
+		$('.to-dc-badge').gaEvent('click', 'Web Search Logo', 'Click');
 		// award city search
-		$('.award-city-search').gaEvent('click', 'City Search Logo', 'click');
-		// wine spectator
-		$('.award-wine-spectator').gaEvent('click', 'Wine Spectator Logo', 'cilck');
-		// trip advisor
-		$('#TA_certificateOfExcellence609').gaEvent('click', 'Trip Advisor Logo', 'click');
+		$('.award-city-search').gaEvent('click', 'Web Search Logo', 'click');
 
 
-		// dining club link
-		$('.dining-club').gaEvent('click', 'Dining Club link', 'Click', 'pageURL');
+		// partner network link
+		$('.partner-network').gaEvent('click', 'Partner Network link', 'Click', 'pageURL');
 
-		// gift cards link
-		$('.gift-cards').gaEvent('click', 'Gift Cards link', 'Click', 'pageURL');
+		// afiliate program link
+		$('.affiliate-program').gaEvent('click', 'Affiliate Program link', 'Click', 'pageURL');
 
 
 		// floating "contact us" ghost button
 		$('.ghost').gaEvent('click', 'Floating Contact Us Button Top Right', 'click', 'pageURL');
 
 
-		// prefooter reservation links
-		// city
-		$('.prefooter .restaurant a.city, .prefooter .city .btn').on('click', function(e) {
+		// prefooter consultation links
+		// web
+		$('.prefooter .service a.web, .prefooter .web .btn').on('click', function(e) {
 			e.preventDefault();
 
-			_gaq.push(['_trackEvent', 'Reservation Link - City', 'Click']);
+			_gaq.push(['_trackEvent', 'Service Link - Web', 'Click']);
 
 			var newURL = $(this).attr('href');
 
@@ -433,11 +427,11 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 			}, 300);
 		});
 
-		// river
-		$('.prefooter .restaurant a.river, .prefooter .river .btn').on('click', function(e) {
+		// brand
+		$('.prefooter .service a.brand, .prefooter .brand .btn').on('click', function(e) {
 			e.preventDefault();
 
-			_gaq.push(['_trackEvent', 'Reservation Link - River', 'Click']);
+			_gaq.push(['_trackEvent', 'Consultation Link - Brand', 'Click']);
 
 			var newURL = $(this).attr('href');
 
@@ -446,11 +440,11 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 			}, 300);
 		});
 
-		// creek
-		$('.prefooter .restaurant a.creek, .prefooter .creek .btn').on('click', function(e) {
+		// market
+		$('.prefooter .service a.market, .prefooter .market .btn').on('click', function(e) {
 			e.preventDefault();
 
-			_gaq.push(['_trackEvent', 'Reservation Link - Creek', 'Click']);
+			_gaq.push(['_trackEvent', 'Consultation Link - Market', 'Click']);
 
 			var newURL = $(this).attr('href');
 
@@ -497,13 +491,13 @@ var mobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAg
 		});
 
 		$('#menu-icon').on('click',function(){
-			$('.restaurants-menu').removeClass('mobile-active');
+			$('.services-menu').removeClass('mobile-active');
 		});
 
 		// Form Sent Success msg=sent
 		$('body').msgSent({
 			variable: 'sent',
-			message : 'Thank you for sending your request. We look forward to providing a wonderful dining experience on your next visit.',
+			message : 'Thank you for sending your request. We look forward to seeing if this is a great fit.',
 			bgColor: 'rgb(42, 42, 42)',
 			bgColorAlpha: 'rgba(42, 42, 42,.9)',
 			borderRadius: '50%'
@@ -622,7 +616,7 @@ Description: Makes the section equal to the height of the viewport by adding pad
 
 // jQuery(document).ready(function() {
 // 	BackgroundCheck.init({
-// 		targets: '.reservation-helper'
+// 		targets: '.consultation-helper'
 // 	});
 // });
 

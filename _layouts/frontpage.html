@@ -5,7 +5,7 @@
   {% include head.html %}
 
   <body id="mainbody" onload="">
-
+    {% if jekyll.environment == 'production' %}
     <!-- Google Tag Manager -->
     <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TVNBZQ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -15,6 +15,8 @@
     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-TVNBZQ');</script>
     <!-- End Google Tag Manager -->
+    {% else %}
+    {% endif %}
 
     <div id="skip">
       <a href="#main" accesskey="s">Skip navigation</a>
