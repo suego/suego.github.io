@@ -962,7 +962,7 @@ section.stuck+section:not(.stuck) {
   height: 100%;
   z-index: 0;
   opacity: 0.5;
-  background-image: url('/assets/images/main-bg-market4.jpg');
+  background-image: url('/assets/images/main-bg-market1.jpg');
   background-size: 513px 707px;
   background-position: 100% 0%;
   -webkit-transition: all 300ms;
@@ -1062,7 +1062,7 @@ section.stuck+section:not(.stuck) {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .service-columns .column.market:before {
-    background-image: url('/assets/images/main-bg-market4@2x.jpg');
+    background-image: url('/assets/images/main-bg-market1@2x.jpg');
     background-size: 513px 707px;
   }
 }
@@ -1153,7 +1153,7 @@ section.stuck+section:not(.stuck) {
   height: 100%;
   z-index: 0;
   opacity: 0.3;
-  background-image: url('/assets/images/main-bg-brand4.jpg');
+  background-image: url('/assets/images/main-bg-brand1.jpg');
   background-size: 561px 714px;
   background-position: 100% 0%;
   -webkit-transition: all 300ms;
@@ -1164,7 +1164,7 @@ section.stuck+section:not(.stuck) {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
   .service-columns .column.brand:before {
-    background-image: url('/assets/images/main-bg-brand4.jpg');
+    background-image: url('/assets/images/main-bg-brand1@2x.jpg');
     background-size: 561px 714px;
   }
 }
