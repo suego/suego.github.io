@@ -14,7 +14,7 @@ permalink: /contact/
 
 <section class="content">
   <h1 class="page-title">{{ page.title }}</h1>
-  <h2>Looking to get online? Let's chat.</h2>
+  <h2>We're ready to help. Let's chat.</h2>
   <p>We believe the Internet is the great equalizer for small business. You can build your brand and get exposure at a fraction of the cost compared to traditional advertising. Your focus is on growing your business, so we'll help put the right marketing pieces into place to make it happen.</p>
   <h3>Send us a message</h3>
   <p>Please enter your information and message in the fields below. We will not share your information without your permission.</p>
