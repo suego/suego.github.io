@@ -531,6 +531,10 @@ ol,ul {
   border-right-color: #dcdfed;
 }
 
+.dcsw #nav>li.link21.active:after,.web #nav>li.link15.active:after,.web #nav>li.link9.active:after {
+  border-right-color: #dcdfed;
+}
+
 .market #nav>li.link21.active:after,.market #nav>li.link15.active:after,.market #nav>li.link9.active:after {
   border-right-color: #ebeddc;
 }
@@ -657,6 +661,10 @@ ol,ul {
 }
 
 .market .consultation-helper.small {
+  background: rgba(51,51,46,0.8);
+}
+
+.dcsw .consultation-helper.small {
   background: rgba(51,51,46,0.8);
 }
 
@@ -3604,6 +3612,25 @@ hr.light {
 }
 
 .logo.web.small {
+  width: 101px;
+  height: 104px;
+}
+
+.logo.dcsw {
+  background-image: url('/assets/images/logo-s3-dcsw.png');
+  background-size: cover;
+  width: 150px;
+  height: 155px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5) {
+  .logo.dcsw {
+    background-image: url('/assets/images/logo-s3-dcsw.png');
+    background-size: cover;
+  }
+}
+
+.logo.dcsw.small {
   width: 101px;
   height: 104px;
 }

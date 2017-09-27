@@ -30,8 +30,21 @@ permalink: /expertise/
       <p><strong>User-Centric Design</strong></p>
       <p><strong>Informaton Architecture</strong></p>
       <p><strong>Responsive Design</strong></p>
-      <p><strong>Usability Testing</strong></p>
+      <p><strong>Internet Marketing</strong></p>
       <a href="http://www.bloomshift.com" class="btn light" target="_blank">Visit Site</a>
+  </div>
+  <span class="scroll dark"></span>
+</section>
+
+<section class="image-right" style="background-image: url('/assets/images/expertise6.png');">
+  <div class="content-wrapper">
+      <a name="dcsw"></a><h2>Largest <strong>FREE</strong> Entreprenurial Celebration in the Region</h2>
+      <p>DC Startup Week is a 5-day celebration of the entrepreneurs in Washington DC, Maryland and Virginia.</p>
+      <p><strong>Connect with the startup community and resources.</strong></p>
+      <p><strong>Cultivate relatioships with people just like you.</strong></p>
+      <p><strong>Celebrate the amazing entrepreneurs.</strong></p>
+      <p><strong>Experience the #GiveFirst culture first-hand.</strong></p>
+      <a href="http://www.dcstartupweek.org" class="btn light" target="_blank">Visit Site</a>
   </div>
   <span class="scroll dark"></span>
 </section>

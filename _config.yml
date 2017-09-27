@@ -3,7 +3,7 @@ description: Suego - We provide web design and online marketing strategy to star
 highlighter: rouge
 
 baseurl: ''
-url: https://suego.co
+url: https://www.suego.co
 
 exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'config.rb', 'sass']
 
