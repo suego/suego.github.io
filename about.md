@@ -14,13 +14,19 @@ permalink: /about/
 
 <section class="content active">
   <h1 class="page-title">{{ page.title }}</h1>
-  <h2>Investing in People and Ideas That Can Change the World <sup>1</sup></h2>
-  <p>Suego is not a conventional company. Its focus is to explore complex problems for high impact solutions.</p>
-  <p>We see big potential in the emerging entrepreneurial ecosystem. Creating opportunity. Reducing poverty. Increasing economic prosperity. Building community. Sharing the wealth. We bring services that help make these goals a reality.</p>
-  <p>A school hobby in 2009 grew into a freelance gig in 2015, and is today a growth-driven design &amp; internet marketing company in the Washington DC market called <a href="http://www.bloomshift.com" target="_blank">BloomShift</a>. The goal then and to this day is to assist small businesses compete effectively online. The success so far is not just from single projects, but also the continued relationship and return on investment (ROI) clients share back.</p>
-  <p>While the entrepreneurial ecosystem is gaining momentum, it is still inaccessible to people with disabilities for varied reasons. In an effort to reduce barriers, an experimental startup activity was launched and <a href="http://www.disabilitystartup.com" target="_blank">Disability StartUP</a> was born shortly after. Poverty can affect anyone, and even more so disabled people. So why not give them a hand up by teaching how to begin the startup journey? The interest was unexpcted, but there in lies an opportunity.</p>
-  <p>We have a strong commitment to our clients worldwide and their communities. The team will do our best to make Suego a long term success and the world a better place.</p>
+  <h2>Investing in People and Ideas That Can Change the World</h2>
+  <p>SUEGO is not a conventional company. Its focus is to explore complex problems for high impact solutions.</p>
+  <p>SUEGO is a minority-owned solutions provider that develops innovative programs, products and services in five program areas. Our clients range from dynamic startups and entrepreneurs to inspiring enterprise-level organizations and executives.</p>
+  <p>Our Startup Foundry&trade; division works to increase the launch and growth of new ventures, and support minority-owned small businesses and entrepreneurs in Washington, D.C.</p>
+  <p>Our BloomShift&trade; division focuses on bringing strategy, design, and technology together to craft digital experiences to stimulate revenue and sustainable business growth.</p>
+  <p>Our Community Crafting&trade; division seeks to increase economic development by developing new tools and strategies to foster thriving startup communities and the broader entrepreneurial ecosystem.</p>
+  <p>Our DC Startup Week&trade; division focuses on supporting individuals building startups in Washington, D.C. by representing the interests of entrepreneurs, celebrating successes, and fostering a cohesive and collaborative community.</p>
+  <p>Our InnovateCoalition&trade; division seeks to build strategic relationships around innovation, startup creation, and finance to promote public policy and supports an environment for innovation.</p>
+  <p>Our approach to impact in all five areas emphasizes collaboration, innovation, risk-taking, and, most importantly, results.</p>
+  <p>We see big potential in the emerging entrepreneurial ecosystem. Creating opportunity. Reducing poverty. Increasing economic prosperity. Building community. Sharing the wealth. We bring programs, products and services that help make these goals a reality.</p>
+  <h2>Corporate Responsibility</h2>
+  <p>We foster a #GiveFirst culture as part of our Corporate Social Responsibility, working with partners worldwide to break down barriers to economic opportunity, help people lift themselves out of poverty, and deliver sustainable and inclusive growth that benefits everyone.</p>
+  <p>We have a strong commitment to our clients worldwide and their communities. The team will do our best to make SUEGO a force for good and the world a better place.</p>
   <p><strong>#GiveFirst</strong></p>
-  <p><i>Suego Team</i></p>
-  <p><sup>1</sup> Partly inspired by Warren Buffett’s essays and in his annual reports, and his and Google's “An Owner’s Manual” to Berkshire Hathaway and Google shareholders, respectively.</p>
+  <p><i>SUEGO Team</i></p>
 </section>
