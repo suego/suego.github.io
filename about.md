@@ -15,7 +15,7 @@ permalink: /about/
 <section class="content active">
   <h1 class="page-title">{{ page.title }}</h1>
   <h2>Investing in People and Ideas That Can Change the World</h2>
-  <p>SUEGO is not a conventional company. Its focus is to explore complex problems for high impact solutions.</p>
+  <blockquote><h4>SUEGO is not a conventional company. Its focus is to explore complex problems for high impact solutions. - Steven A. Rodriguez, Founde &amp; Managing Director, SUEGO</h4></blockquote>
   <p>SUEGO is a minority-owned solutions provider that develops innovative programs, products and services in five program areas. Our clients range from dynamic startups and entrepreneurs to inspiring enterprise-level organizations and executives.</p>
   <p>Our Startup Foundry&trade; division works to increase the launch and growth of new ventures, and support minority-owned small businesses and entrepreneurs in Washington, D.C.</p>
   <p>Our BloomShift&trade; division focuses on bringing strategy, design, and technology together to craft digital experiences to stimulate revenue and sustainable business growth.</p>
