@@ -1,5 +1,5 @@
 ---
 layout: angels
-title: SUEGO Fund I
+title: CO Fund I
 description: {{ page.description }}
 ---

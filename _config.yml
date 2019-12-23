@@ -21,7 +21,7 @@
 title: SUEGO
 email: info@suego.co
 description: >- # this means to ignore newlines until "baseurl:"
-  A seed and early-stage venture capital fund. We invest in extraordinary entrepreneurs with unique technologies that will define the next era of innovation.
+  A seed and early-stage venture capital fund. We invest in extraordinary entrepreneurs with unique business models that will define the next era of innovation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vc.suego.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: suegohq
