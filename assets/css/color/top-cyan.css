@@ -1,0 +1,9 @@
+.separator svg {
+	fill: #374b4f;
+}
+
+.slide-3 .slider-btn a,
+.sp-slide .slider-btn a {
+	background-color: #374b4f !important;
+	color: #ffffff !important;
+}

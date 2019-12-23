@@ -1,0 +1,91 @@
+.angles-container .angles-menu-item svg {
+	fill: #f1c311;
+}
+
+.angles-container .angles-heading {
+	color: #f1c311;
+}
+
+.btn {
+	border-color: #f1c311 !important;
+	background: #f1c311 !important;
+	color: #fff;
+}
+
+.btn:hover {
+	background: #fff !important;
+	border-color: #f1c311 !important;
+	color: #f1c311 !important;
+}
+
+.download-btn .btn-hover {
+	background-color: #fff;
+	color: #f1c311;
+}
+
+.facts .col-md-3.col-sm-6:hover {
+	border-color: #f1c311;
+}
+
+.skill-details .progress-bar,
+.facts .col-md-3.col-sm-6:hover {
+	background-color: #f1c311;
+}
+
+.pricing-tables .col-md-4.col-sm-6:nth-child(2) .table-title, 
+.pricing-tables .col-md-4.col-sm-6:nth-child(2) .pricing-cost, 
+.pricing-tables .table:hover .table-title,
+.pricing-tables .table:hover .pricing-cost {
+	background-color: #f1c311; 
+	border-color: #e8eaf6;	
+}
+
+.pricing-tables .col-md-4.col-sm-6:hover {
+	border-color: #e8eaf6 !important;
+}
+
+.table-bottom .btn,
+.wpcf7-form p.btn {
+	background-color: #fff !important;
+	border: none !important;
+}
+
+.table-bottom .btn:hover {
+	color: #f1c311 !important; 
+}
+
+.entry-title a:hover {
+	color: #f1c311;
+}
+
+.wpcf7-submit {
+	background: #f1c311;
+	border-color: #e8eaf6;
+	color: #fff;
+}
+
+.wpcf7-submit:hover {
+	background: #fff;
+	border-color: #e8eaf6;
+	color: #f1c311;
+}
+
+.back-home .btn {
+	color: #fff;
+}
+
+.btn.reply-btn,
+.btn.read-more {
+	background-color: #fff !important;
+	border: 0;
+	color: #f1c311; 
+}
+
+.btn.reply-btn:before,
+.btn.read-more:hover {
+	color: #f1c311;
+}
+
+.tag-list a:hover {
+	background-color: #f1c311;
+}
