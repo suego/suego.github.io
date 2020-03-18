@@ -32,6 +32,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-multiple-languages-plugin
+
+# The first item of languages will be used as the default.
+languages: ["en", "es"]
+exclude_from_localizations: ["assets"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
